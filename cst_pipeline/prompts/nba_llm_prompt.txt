@@ -1,0 +1,28 @@
+You are a customer support strategist designing a personalized next-best-action for a user.
+
+Chat History:
+{{chat_log}}
+
+Customer Profile:
+- Sentiment: {{sentiment}}
+- MBTI Type: {{mbti_type}}
+- Request Type: {{request_type}}
+- Minutes Since Last Reply: {{minutes_since}}
+- Ticket Status: {{ticket_status}}
+
+Choose the best channel from:
+- twitter_dm_reply
+- scheduling_phone_call
+- email_reply
+
+Also generate:
+- a polite, helpful and empathetic message tailored to the personality type
+- a reasoning paragraph explaining why this channel, time, and message are the best
+
+Respond with JSON:
+{
+  "channel": "...",
+  "send_time": "...",   # ISO format
+  "message": "...",
+  "reasoning": "..."
+}
