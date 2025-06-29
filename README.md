@@ -12,6 +12,7 @@ This project builds an end-to-end pipeline for:
 ---
 
 ## Project Structure
+```bash
 CSTPipeline-Next-Best-Action-Engine/
 ├── cst_pipeline/
 │   ├── __init__.py
@@ -50,7 +51,7 @@ CSTPipeline-Next-Best-Action-Engine/
 │   ├── mbti_comparison_eval.csv
 ├── requirements.txt
 ├── README.md
-
+```
 - `cst_pipeline/ingest.py` — loads and cleans raw data.
 - `cst_pipeline/conversation_analysis/` — NLP analysis, feature extraction, clustering.
 - `cst_pipeline/mbti_modelling/` — MBTI classifier training and tagging.
