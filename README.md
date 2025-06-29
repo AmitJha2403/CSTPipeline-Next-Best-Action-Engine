@@ -104,9 +104,8 @@ CSTPipeline-Next-Best-Action-Engine/
 5. Run the pipeline: 
    ```bash
    pip install -r requirements.txt
-  ```
+   ```
 6. Final outputs:
   - nba_output.json — raw NBA predictions
   - nba_result_eval.csv — final evaluated CSV for 1000 customers
   - mbti_comparison_eval.csv — baseline vs. personalized message comparison
-
