@@ -1,5 +1,7 @@
 # CSTPipeline-Next-Best-Action-Engine
+
 ---
+
 ## Problem Statement
 Modern customer support teams handle massive volumes of customer conversations every day across social media platforms like Twitter. It is challenging to:
 
@@ -16,6 +18,7 @@ This project solves this by building an **end-to-end Next-Best-Action (NBA) Engi
   5️. Outputs audit logs, result JSONs, and final evaluation CSVs for review.
 
 **Goal:** Enable support teams to **respond faster**, **prioritize better**, and **personalize messages** — improving customer satisfaction and operational efficiency.
+
 ---
 
 ## Overview
