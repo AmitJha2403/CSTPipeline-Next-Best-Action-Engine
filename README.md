@@ -9,11 +9,11 @@ Modern customer support teams handle massive volumes of customer conversations e
 
 This project solves this by building an **end-to-end Next-Best-Action (NBA) Engine** that:
 
-1️⃣ Ingests raw customer support conversations from Twitter.  
-2️⃣ Cleans, analyzes, and clusters these conversations to understand common support topics and sentiments.  
-3️⃣ Predicts each customer’s MBTI personality type using a fine-tuned DistilBERT classifier trained on Reddit data.  
-4️⃣ Combines business rules and personality insights to generate **personalized next-best-action recommendations** for each customer.  
-5️⃣ Outputs audit logs, result JSONs, and final evaluation CSVs for review.
+1️ Ingests raw customer support conversations from Twitter.  
+2️ Cleans, analyzes, and clusters these conversations to understand common support topics and sentiments.  
+3️ Predicts each customer’s MBTI personality type using a fine-tuned DistilBERT classifier trained on Reddit data.  
+4️ Combines business rules and personality insights to generate **personalized next-best-action recommendations** for each customer.  
+5️ Outputs audit logs, result JSONs, and final evaluation CSVs for review.
 
 **Goal:** Enable support teams to **respond faster**, **prioritize better**, and **personalize messages** — improving customer satisfaction and operational efficiency.
 ---
