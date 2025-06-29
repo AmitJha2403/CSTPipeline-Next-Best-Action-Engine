@@ -12,6 +12,44 @@ This project builds an end-to-end pipeline for:
 ---
 
 ## Project Structure
+CSTPipeline-Next-Best-Action-Engine/
+├── cst_pipeline/
+│   ├── __init__.py
+│   ├── main.py
+│   ├── ingest.py
+│   ├── run_nba.py
+│   ├── evaluate_nba.py
+│   ├── evaluate_personalized_nba.py
+│   ├── mbti_modelling/
+│   │   ├── __init__.py
+│   │   ├── train_mbti_classifier.py
+│   │   ├── tag_cst_users.py
+│   │   ├── mbti_dataset.py
+│   │   ├── predict_mbti.py
+│   ├── conversation_analysis/
+│   │   ├── analyze.py
+│   │   ├── clustering_features.py
+│   │   ├── conversation_clusters.py
+│   ├── engine/
+│   │   ├── nba_rules.py
+│   │   ├── nba_pipeline.py
+│   │   ├── utils.py
+│   │   ├── generate_mbti_message.py
+├── data/
+│   ├── raw/
+│   │   ├── twcs.csv
+│   ├── mbti/
+│   │   ├── reddit_post.csv
+│   │   ├── unique_author.csv
+│   ├── processed/
+│   │   ├── conversation_analysis.csv
+│   │   ├── cst_mbti_tags.csv
+├── output/
+│   ├── nba_output.json
+│   ├── nba_result_eval.csv
+│   ├── mbti_comparison_eval.csv
+├── requirements.txt
+├── README.md
 
 - `cst_pipeline/ingest.py` — loads and cleans raw data.
 - `cst_pipeline/conversation_analysis/` — NLP analysis, feature extraction, clustering.
