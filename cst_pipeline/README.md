@@ -1,10 +1,10 @@
-# 📂 CST Pipeline
+# CST Pipeline
 
 This folder contains the **complete Customer Support Twitter (CST) pipeline** for processing raw data, analyzing conversations, training an MBTI personality classifier, running a Next-Best-Action (NBA) engine, and generating final outputs for evaluation.
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 
 ### `conversation_analysis/`
 Scripts for:
@@ -64,12 +64,12 @@ All final outputs:
 
 ---
 
-## ✅ Data Requirements
+## Data Requirements
 
 Before running, place these files:
-- `twcs.csv` → `data/raw/`
+- `twcs.csv` -> `data/raw/`
   - [Download](https://www.kaggle.com/datasets/thoughtvector/customer-support-on-twitter/data)
-- `reddit_post.csv` & `unique_author.csv` → `data/mbti/`
+- `reddit_post.csv` & `unique_author.csv` -> `data/mbti/`
   - [Download](https://www.kaggle.com/datasets/minhaozhang1/reddit-mbti-dataset)
 
 ---
