@@ -31,11 +31,11 @@ This project builds an end-to-end pipeline for:
 - Output: JSON + CSV files in `cst_pipeline/output/`
 
 - **Main input:** Customer support tweets from Twitter — `twcs.csv`  
-  → 📥 Download from [Kaggle](https://www.kaggle.com/datasets/thoughtvector/customer-support-on-twitter/data)  
+  → Download from [Kaggle](https://www.kaggle.com/datasets/thoughtvector/customer-support-on-twitter/data)  
   → Place it in `cst_pipeline/data/raw/`
 
 - **MBTI training data:** Reddit posts & authors  
-  → 📥 Download `reddit_post.csv` and `unique_author.csv` from [this Kaggle link](https://www.kaggle.com/datasets/minhaozhang1/reddit-mbti-dataset?select=reddit_post.csv)  
+  → Download `reddit_post.csv` and `unique_author.csv` from [this Kaggle link](https://www.kaggle.com/datasets/minhaozhang1/reddit-mbti-dataset?select=reddit_post.csv)  
   → Place both files in `cst_pipeline/data/mbti/`
 
 
@@ -58,10 +58,15 @@ This project builds an end-to-end pipeline for:
 2. Install dependencies:
    ```bash
    pip install -r requirements.txt
-3. Run the pipeline:
+   ```
+3. Add Data
+  - Put twcs.csv in cst_pipeline/data/raw/
+  - Put reddit_post.csv and unique_author.csv in cst_pipeline/data/mbti/
+5. Run the pipeline: 
    ```bash
-   python -m cst_pipeline
-4. Final outputs:
+   pip install -r requirements.txt
+  ```
+6. Final outputs:
   - nba_output.json — raw NBA predictions
   - nba_result_eval.csv — final evaluated CSV for 1000 customers
   - mbti_comparison_eval.csv — baseline vs. personalized message comparison
