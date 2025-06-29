@@ -8,6 +8,7 @@ This project builds an end-to-end pipeline for:
 - Predicting MBTI personality types for users
 - Generating personalized Next-Best-Actions (NBA) using business rules & MBTI traits
 - Evaluating results and comparing baseline vs. personalized messages
+- The generated results are stored in output folder
 
 ---
 
