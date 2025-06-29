@@ -1,4 +1,22 @@
 # CSTPipeline-Next-Best-Action-Engine
+---
+## Problem Statement
+Modern customer support teams handle massive volumes of customer conversations every day across social media platforms like Twitter. It is challenging to:
+
+- Understand the intent, sentiment, and urgency of each customer query.
+- Prioritize responses efficiently.
+- Personalize interactions to match individual customer personalities and preferences.
+
+This project solves this by building an **end-to-end Next-Best-Action (NBA) Engine** that:
+
+1️⃣ Ingests raw customer support conversations from Twitter.  
+2️⃣ Cleans, analyzes, and clusters these conversations to understand common support topics and sentiments.  
+3️⃣ Predicts each customer’s MBTI personality type using a fine-tuned DistilBERT classifier trained on Reddit data.  
+4️⃣ Combines business rules and personality insights to generate **personalized next-best-action recommendations** for each customer.  
+5️⃣ Outputs audit logs, result JSONs, and final evaluation CSVs for review.
+
+**Goal:** Enable support teams to **respond faster**, **prioritize better**, and **personalize messages** — improving customer satisfaction and operational efficiency.
+---
 
 ## Overview
 
@@ -9,8 +27,6 @@ This project builds an end-to-end pipeline for:
 - Generating personalized Next-Best-Actions (NBA) using business rules & MBTI traits
 - Evaluating results and comparing baseline vs. personalized messages
 - The generated results are stored in output folder
-
----
 
 ## Project Structure
 ```bash
