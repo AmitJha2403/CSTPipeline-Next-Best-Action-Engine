@@ -46,9 +46,10 @@ def run_pipeline(use_tqdm=True, limit=None, use_llm=False):
 
     nba_outputs = []
     log_rows = []
-
-    if limit:
-        merged_df = merged_df.head(limit)
+    
+    #If your code is running slow 
+    # if limit:
+    #     merged_df = merged_df.head(limit)
 
     print(f"Total rows in merged_df: {len(merged_df)}")
     print("Columns available:", merged_df.columns.tolist())
